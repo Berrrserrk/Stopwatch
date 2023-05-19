@@ -11,7 +11,7 @@ body {
   align-content: center;
   justify-content: center;
   margin:0 auto;
-  gap:50px;
+  gap:40px;
   }
 
   @media screen and (max-width: 600px) {
