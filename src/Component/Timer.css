@@ -1,6 +1,5 @@
 .Timers{
   text-align: center;
-  outline: none;
   background-color:hsl(0, 0%, 31%);
 }
 
@@ -17,20 +16,14 @@
 
 #start {
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
   left: 0;
   right: 0;
-  text-align: center;
   }
   
   #pause {
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
   left: 0;
   right: 0;
-  text-align: center;
   }
   
   #square {
@@ -49,13 +42,14 @@
 
 @media screen and (min-width: 1024px) {
   .Timers {
-    width: 25%;
-    height: 12%;
+    height: 100px;
+    width: 240px;
+    border-radius: 10px;
     }
     
     #display {
-      padding-top: 10px;
-      padding-bottom: 9px;
+    padding-top: 10px;
+    padding-bottom: 9px;
     }
     
     #display span {
@@ -64,18 +58,21 @@
     
     .icons {
     font-size: 24px;
+    padding-top: 7px;
+    padding-bottom: 10px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
   .Timers {
-    width: 40%;
-    height: 11%;
+    height: 100px;
+    width: 240px;
+    border-radius: 10px;
     }
     
     #display {
-      padding-top: 10px;
-      padding-bottom: 9px;
+    padding-top: 10px;
+    padding-bottom: 9px;
     }
     
     #display span {
@@ -84,19 +81,21 @@
     
     .icons {
     font-size: 24px;
+    padding-top: 7px;
+    padding-bottom: 10px;
     }
     
 
 }
   @media screen and (max-width: 600px) {
     .Timers {
-      width: 70%;
-      height: 10%;
+      height: 80px;
+      width: 170px;
       }
       
       #display {
-      margin-top:18px;
-      margin-bottom:10px;
+      padding-top: 6px;
+      padding-bottom: 6px;
       }
       
       #display span {
@@ -105,15 +104,11 @@
       
       .icons {
       font-size: 20px;
+      padding-top: 6px;
+      padding-bottom: 6px;
       }
     }
 
-    @media screen and (max-height: 700px) {
-      #display {
-        margin-top:10px;
-        margin-bottom:10px;
-        }
-    }
 
 
 
