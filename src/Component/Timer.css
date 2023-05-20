@@ -40,7 +40,7 @@
   border-bottom: 1px solid white;
   }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 750px) {
   .Timers {
     height: 100px;
     width: 240px;
@@ -63,34 +63,11 @@
     }
 }
 
-@media screen and (max-width: 820px) {
-  .Timers {
-    height: 100px;
-    width: 240px;
-    border-radius: 10px;
-    }
-    
-    #display {
-    padding-top: 10px;
-    padding-bottom: 9px;
-    }
-    
-    #display span {
-    font-size: 26px;
-    }
-    
-    .icons {
-    font-size: 24px;
-    padding-top: 7px;
-    padding-bottom: 10px;
-    }
-    
-
-}
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 750px) {
     .Timers {
       height: 80px;
       width: 170px;
+      border-radius: 10px;
       }
       
       #display {
